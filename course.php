@@ -36,7 +36,7 @@ switch ($text) {
                 $keyboard = new ReplyKeyboardMarkup(true, true);
                 $options = keyboard_options();
                 $keyboard->add_option($options);
-                $bot->send_message($chatid, "Welcome back @$username welcome to @udemyfreerobot!\nI will provide you free online courses, E-Books, Udemy Coupons and many more. Plese use the bot menu for further navigation.", null, json_encode($keyboard), "HTML");
+                $bot->send_message($chatid, "Welcome @$username welcome to @udemyfreerobot!\nI will provide you free online courses, E-Books, Udemy Coupons and many more. Plese use the bot menu for further navigation.", null, json_encode($keyboard), "HTML");
             } else {
                 $result1 = mysqli_query($db, "INSERT INTO bot (chat_id, user_name) VALUES ('$chatid', '$username')");
                 if ($result1) {
