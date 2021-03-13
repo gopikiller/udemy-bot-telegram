@@ -2,7 +2,7 @@
 A telegram bot to get Free Udemy coupon courses and E-books.
 
 Screen shots
-![screenshot-1](screenshot/Screenshot from 2021-03-13 09-45-31.png)
-![screenshot-2](screenshot/Screenshot from 2021-03-13 09-48-09.png)
-![screenshot-3](screenshot/Screenshot from 2021-03-13 09-48-29.png)
-![screenshot-4](screenshot/Screenshot from 2021-03-13 09-48-45.png)
+![screenshot-1](screenshot/screenshot-1)
+![screenshot-2](screenshot/screenshot-2)
+![screenshot-3](screenshot/screenshot-3)
+![screenshot-4](screenshot/screenshot-4)
