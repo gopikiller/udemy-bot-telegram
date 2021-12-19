@@ -3,7 +3,7 @@ require('bot.php');
 require('config.php');
 require('function.php');
 
-$token = "1547454555:AAEwACPT2UnddEEORo06GrjUsVEuBb6Vp5Q";
+$token = "TELEGRAM_BOT_API_TOKEN";
 $bot = new telegram_bot($token);
 
 $data = $bot->read_post_message();
